@@ -1,0 +1,32 @@
+#nav-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    margin-bottom: 0;
+    border-bottom: 3px solid blueviolet;
+    z-index: 99;
+}
+#nav-list {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-item a:hover {
+    color: blueviolet;
+}

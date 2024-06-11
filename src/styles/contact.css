@@ -1,0 +1,22 @@
+#contact {
+    padding-top: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.col {
+    float: left;
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .col {
+        width: 100%;
+    }
+}
+
+#contact::after {
+    content: "";
+    display: table;
+    clear: both;
+}

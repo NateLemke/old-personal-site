@@ -1,0 +1,36 @@
+#projects {
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.card-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 60px 40px;
+    margin: 40px
+}
+.project-card {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    color: white;
+    box-shadow: 3px 5px 10px #888888;
+    z-index: 0;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+    z-index: 0;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+    z-index: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .card-div {
+        grid-template-columns: 1fr;
+    }
+}

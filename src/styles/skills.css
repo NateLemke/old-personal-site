@@ -1,0 +1,13 @@
+#skills {
+    padding: 25px;
+}
+
+
+#skills-container {
+    border-radius: 10px;
+}
+
+.skillImg {
+    margin-left: 5%;
+    margin-right: 5%;
+}

@@ -1,0 +1,26 @@
+
+#header {
+    height: 90vh;
+    width: 100%;
+    align-content: center;
+    padding-top: 50px;
+    margin-top: 0;
+    background-image: url('../content/night.jpg');
+    background-size: cover;
+}
+
+
+.rounded-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+.rounded-button:hover {
+    background-color: rgba(75, 0, 130, .5);
+}
