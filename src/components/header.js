@@ -7,7 +7,7 @@ export default function Header(){
         <div id="header">
         <h1>Hi, I'm Nate Lemke</h1>
         <h2>Software Developer from Burnaby, BC</h2>
-        <a class="rounded-button" href="static/Resume.pdf">Resume</a>
+        <a class="rounded-button" href="/Resume.pdf">Resume</a>
     </div>
     );
 }
